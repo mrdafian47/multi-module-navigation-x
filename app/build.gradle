@@ -42,4 +42,14 @@ dependencies {
     androidTestImplementation deps.espresso.core
     androidTestImplementation deps.espresso.contrib
     androidTestImplementation deps.espresso.intents
+
+    // Host-side tests
+    testImplementation deps.atsl.ext_junit
+    testImplementation deps.robolectric
+    testImplementation deps.mockito.core
+
+    // Espresso API running in Robolectric
+    testImplementation deps.espresso.core
+    testImplementation deps.espresso.contrib
+    testImplementation deps.espresso.intents
 }

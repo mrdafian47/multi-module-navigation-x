@@ -38,4 +38,7 @@ dependencies {
     // Koin DI
     api deps.koin.android
     api deps.koin.viewmodel
+
+    // Testing Purpose
+    api deps.support.fragment_testing
 }
