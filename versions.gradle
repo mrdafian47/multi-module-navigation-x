@@ -54,6 +54,7 @@ versions.rxjava2 = "2.1.3"
 versions.support = "1.0.0"
 versions.timber = "4.5.1"
 versions.work = "2.1.0-alpha01"
+versions.koin = "2.0.0"
 ext.versions = versions
 
 def deps = [:]
@@ -176,6 +177,11 @@ navigation.ui = "androidx.navigation:navigation-ui:$versions.navigation"
 navigation.ui_ktx = "androidx.navigation:navigation-ui-ktx:$versions.navigation"
 navigation.safe_args_plugin = "androidx.navigation:navigation-safe-args-gradle-plugin:$versions.navigation"
 deps.navigation = navigation
+
+def koin = [:]
+koin.android = "org.koin:koin-android:$versions.koin"
+koin.viewmodel = "org.koin:koin-android-viewmodel:$versions.koin"
+deps.koin = koin
 
 ext.deps = deps
 
