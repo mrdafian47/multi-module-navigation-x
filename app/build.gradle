@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion build_versions.target_sdk
     defaultConfig {
         applicationId "com.dafian.android.multimodulenavigationx"
         minSdkVersion build_versions.min_sdk
@@ -24,17 +24,12 @@ android {
 dependencies {
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation deps.kotlin.stdlib
-    implementation deps.support.app_compat
-    implementation deps.support.design
-    implementation deps.support.core_ktx
-    implementation deps.constraint_layout
-    implementation deps.arch_core.runtime
 
-    // Navigation
-    implementation deps.navigation.runtime_ktx
-    implementation deps.navigation.fragment_ktx
-    implementation deps.navigation.ui_ktx
+    implementation project(':common')
+    implementation project(':module_account')
+    implementation project(':module_dashboard')
+    implementation project(':module_feed')
+    implementation project(':module_meal')
 
     // Android Testing Support Library's runner and rules
     androidTestImplementation deps.atsl.runner
