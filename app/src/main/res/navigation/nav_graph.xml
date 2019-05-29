@@ -17,4 +17,16 @@
         android:label="Feed"
         tools:layout="@layout/fragment_feed" />
 
+    <fragment
+        android:id="@+id/meal_fragment"
+        android:name="com.dafian.android.module_meal.MealFragment"
+        android:label="Meal"
+        tools:layout="@layout/fragment_meal" />
+
+    <fragment
+        android:id="@+id/account_fragment"
+        android:name="com.dafian.android.module_account.AccountFragment"
+        android:label="Account"
+        tools:layout="@layout/fragment_account" />
+
 </navigation>
