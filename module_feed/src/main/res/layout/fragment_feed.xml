@@ -11,4 +11,18 @@
         android:layout_height="wrap_content"
         android:text="Module Feed" />
 
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/padding_normal" />
+
+    <Button
+        android:id="@+id/bt_feed_detail"
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Detail Feed"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp" />
+
 </LinearLayout>

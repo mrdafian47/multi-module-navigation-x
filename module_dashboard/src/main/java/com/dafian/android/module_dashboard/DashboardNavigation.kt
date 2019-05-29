@@ -5,5 +5,5 @@ import android.view.View
 
 interface DashboardNavigation {
 
-    fun dashboardToRadio(view: View, bundle: Bundle)
+    fun moveToRadio(view: View, bundle: Bundle)
 }

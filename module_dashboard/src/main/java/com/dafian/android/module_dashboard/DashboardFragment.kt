@@ -20,7 +20,7 @@ class DashboardFragment : BaseFragment() {
         super.onViewCreated(view, savedInstanceState)
 
         bt_menu_radio?.setOnClickListener {
-            navigation.dashboardToRadio(it, Bundle())
+            navigation.moveToRadio(it, Bundle())
         }
     }
 }

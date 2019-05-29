@@ -3,13 +3,13 @@ package com.dafian.android.multimodulenavigationx.navigation
 import android.os.Bundle
 import android.view.View
 import androidx.navigation.findNavController
-import com.dafian.android.module_dashboard.DashboardNavigation
+import com.dafian.android.module_feed.FeedNavigation
 import com.dafian.android.multimodulenavigationx.R
 
-class DashboardNavigationImpl : DashboardNavigation {
+class FeedNavigationImpl : FeedNavigation {
 
-    override fun moveToRadio(view: View, bundle: Bundle) {
+    override fun moveToDetailFeed(view: View, bundle: Bundle) {
         view.findNavController()
-            .navigate(R.id.main_to_radio, bundle)
+            .navigate(R.id.detail_feed_fragment, bundle)
     }
 }
