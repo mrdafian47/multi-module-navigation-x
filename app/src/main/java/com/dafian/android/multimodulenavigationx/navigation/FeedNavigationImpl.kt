@@ -10,6 +10,6 @@ class FeedNavigationImpl : FeedNavigation {
 
     override fun moveToDetailFeed(view: View, bundle: Bundle) {
         view.findNavController()
-            .navigate(R.id.detail_feed_fragment, bundle)
+            .navigate(R.id.move_to_detail_feed, bundle)
     }
 }

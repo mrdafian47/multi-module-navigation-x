@@ -10,6 +10,6 @@ class DashboardNavigationImpl : DashboardNavigation {
 
     override fun moveToRadio(view: View, bundle: Bundle) {
         view.findNavController()
-            .navigate(R.id.main_to_radio, bundle)
+            .navigate(R.id.move_to_radio, bundle)
     }
 }
