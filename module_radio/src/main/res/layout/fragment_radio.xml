@@ -9,6 +9,6 @@
         style="@style/TextAppearance.MaterialComponents.Headline1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Module Meal" />
+        android:text="Module Radio" />
 
 </LinearLayout>

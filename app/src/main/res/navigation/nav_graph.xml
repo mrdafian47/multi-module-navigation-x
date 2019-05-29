@@ -9,7 +9,13 @@
         android:id="@+id/dashboard_fragment"
         android:name="com.dafian.android.module_dashboard.DashboardFragment"
         android:label="Dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard">
+
+        <action
+            android:id="@+id/dashboard_to_radio"
+            app:destination="@id/radio_fragment" />
+
+    </fragment>
 
     <fragment
         android:id="@+id/feed_fragment"
@@ -28,5 +34,11 @@
         android:name="com.dafian.android.module_account.AccountFragment"
         android:label="Account"
         tools:layout="@layout/fragment_account" />
+
+    <fragment
+        android:id="@+id/radio_fragment"
+        android:name="com.dafian.android.module_radio.RadioFragment"
+        android:label="Radio"
+        tools:layout="@layout/fragment_radio" />
 
 </navigation>

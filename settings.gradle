@@ -1,1 +1,1 @@
-include ':app', ':common', ':module_dashboard', ':module_feed', ':module_meal', ':module_account'
+include ':app', ':common', ':module_dashboard', ':module_feed', ':module_meal', ':module_account', ':module_radio'

@@ -30,10 +30,7 @@ dependencies {
     implementation project(':module_dashboard')
     implementation project(':module_feed')
     implementation project(':module_meal')
-
-    // Koin DI
-    implementation deps.koin.android
-    implementation deps.koin.viewmodel
+    implementation project(':module_radio')
 
     // Android Testing Support Library's runner and rules
     androidTestImplementation deps.atsl.runner
